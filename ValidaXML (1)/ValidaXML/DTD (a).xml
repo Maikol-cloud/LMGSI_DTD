@@ -1,4 +1,4 @@
-<!ELEMENT llibre (titol, autor, saga, part, anyPublicacio)>
+<!ELEMENT llibre (titol,autor,saga,part,anyPublicacio)>
 <!ELEMENT titol (#PCDATA)>
 <!ELEMENT autor (#PCDATA)>
 <!ELEMENT saga (#PCDATA)>
