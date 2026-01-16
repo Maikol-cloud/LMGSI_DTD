@@ -3,7 +3,7 @@
 <!ELEMENT companyia  (#PCDATA)>
 <!ELEMENT plataforma (#PCDATA)>
 <!ELEMENT anyLlançament (#PCDATA)>
-<!ELEMENT personatges (personatge+1)>
+<!ELEMENT personatges (personatge+)>
 <!ELEMENT personatge (nom)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT nivells (nivell+1)>
