@@ -4,9 +4,9 @@
 <!ELEMENT plataforma (#PCDATA)>
 <!ELEMENT anyLlançament (#PCDATA)>
 <!ELEMENT personatges (personatge+)>
-<!ELEMENT personatge (nom)>
+<!ELEMENT personatge (nom+)>
+<!ELEMENT nivells (nivell+)>
+<!ELEMENT nivell (nom+)>
 <!ELEMENT nom (#PCDATA)>
-<!ELEMENT nivells (nivell+1)>
-<!ELEMENT nom (#PCDATA)>
-<!ATTLIST personatge type (heroi|company|mentora|)>
-<!ATTLIST nivell type (baixa|mitjana|alta)> 
+<!ATTLIST personatge type (heroi|company|mentora) #IMPLIED>
+<!ATTLIST nivell dificultat type (baixa|mitjana|alta) #IMPLIED> 

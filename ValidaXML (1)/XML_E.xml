@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "DTD_E.dtd">
+<cataleg_musica>
+    <llista_artistes>
+        <artista id= "t984329">
+            <nom>Gojira</nom>
+            <pais>França</pais>
+            <genere>Prog-Death Metal</genere>
+        </artista>
+    </llista_artistes>
+    <llista_albumes>
+        <album id= "p0394835">
+            <titol>From mars to sirius</titol>
+            <any>2005</any>
+            <artistes>
+                <artista_ref IDREF= "q8359743"></artista_ref>
+            </artistes>
+        </album>
+    </llista_albumes>
+    <llista_recomanacions_albumes>
+        <recomanacio IDREF="d938485"></recomanacio>
+    </llista_recomanacions_albumes>
+</cataleg_musica>
